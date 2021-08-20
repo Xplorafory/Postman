@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "newman run tests/Postman-Test-Collection.postman_collection.json"
+    "api-tests-production": "newman run tests/Postman-Test-Collection.postman_collection.json"
   },
   "author": "Jonas Breisel",
   "dependencies": {
