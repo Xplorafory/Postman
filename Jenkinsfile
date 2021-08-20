@@ -5,7 +5,7 @@ pipeline {
         stage('Postman tests') {
             steps {
                 sh "npm install"
-                sh "npm run DemoJensen.postman_collection.json"
+                sh "npm run api-tests-production"
             }
         }
     }   
