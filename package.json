@@ -2,11 +2,12 @@
   "name": "postman-newman-jenkins",
   "version": "1.0.0",
   "description": "Project for storing Postman tests",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/Postman-Test-Collection.postman_collection.json"
+    "test": "newman run tests/Postman-Test-Collection.postman_collection.json"
   },
   "author": "Jonas Breisel",
   "dependencies": {
